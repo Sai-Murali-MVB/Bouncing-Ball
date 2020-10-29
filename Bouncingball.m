@@ -31,7 +31,7 @@ plot(x,y)
 title('TRAJECTORY');
 xlabel('INDEX OF COLLISION');
 ylabel('HEIGHT');
-% QUANTIZATION
+% Qunatization
 n1=2;
 L=2^n1;
 xmax=4.5;
