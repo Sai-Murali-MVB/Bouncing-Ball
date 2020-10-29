@@ -29,7 +29,7 @@ end
 figure(1)
 plot(x,y)
 title('TRAJECTORY');
-xlabel('INDEX OF COLLISION');
+xlabel('TIME');
 ylabel('HEIGHT');
 % Quantization
 n1=2;
@@ -45,10 +45,10 @@ figure(2)
 subplot(2,1,1)
 stem(x,y)
 title('SAMPLED SIGNAL');
-xlabel('INDEX OF COLLISION');
+xlabel('TIME');
 ylabel('HEIGHT');
 subplot(2,1,2)
 stem(x,quants);
 title('QUANTIZED SIGNAL');
-xlabel('INDEX OF COLLISION');
+xlabel('TIME');
 ylabel('HEIGHT');
